@@ -1,0 +1,12 @@
+{
+  "name": "mvmdesigner",
+  "version": "1.0.0",
+  "description": "mvmdesigner freelance website",
+  "repository": "https://github.com/mvmdesigner/mvmdesigner.com.git",
+  "author": "Wesley Ford @wesdevpro <wes@wesdev.pro>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
