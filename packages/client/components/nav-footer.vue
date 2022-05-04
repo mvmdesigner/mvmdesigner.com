@@ -65,11 +65,11 @@ export default {
 
 .icons {
   flex: 1;
-  font-size: 5vmin;
+  font-size: 2em;
 }
 
 .icons a {
-  margin-left: 1.5vmin;
+  margin-left:  1.5vmin;
   margin-right: 1.5vmin;
 }
 .icons a:hover {
