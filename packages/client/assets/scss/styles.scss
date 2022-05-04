@@ -9,7 +9,7 @@ $primary-invert: findColorInvert($primary);
 $gold: #bd8f21;
 $gold-invert: findColorInvert($gold);
 $navbar-item-active-color: purple;
-
+$footer-background-color: $primary;
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (

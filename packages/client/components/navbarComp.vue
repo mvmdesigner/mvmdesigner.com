@@ -10,13 +10,17 @@
         <img src="~assets/header-logo.png" alt="MVM Designer" height="28" />
       </b-navbar-item>
     </template>
-    <template  #end>
+    <template #end>
       <b-navbar-item v-for="{ link, name } in nav" :key="name" tag="div">
-        <NuxtLink :to="{ path: link }" class="is-size-4 navbar-item" exact-active-class="is-active">
+        <NuxtLink
+          :to="{ path: link }"
+          class="is-size-4 navbar-item"
+          exact-active-class="is-active"
+        >
           {{ name }}
         </NuxtLink>
       </b-navbar-item>
-      <hr class="navbar-divider">
+      <hr class="navbar-divider" />
     </template>
   </b-navbar>
 </template>
@@ -31,12 +35,12 @@ export default {
           link: '/',
         },
         {
-          name: 'About Me',
-          link: '#about-me',
+          name: 'My Portfolio',
+          link: '/portfolio',
         },
         {
-          name: 'Portfolio',
-          link: '/portfolio',
+          name: 'About Me',
+          link: '#about-me',
         },
         {
           name: 'Contact Me',
