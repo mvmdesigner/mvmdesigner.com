@@ -1,7 +1,8 @@
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
 
-$family-sans-serif: "Roboto", sans-serif;
+$family-sans-serif: "Roboto",
+sans-serif;
 
 // Set your colors
 $primary: #053255;
@@ -12,8 +13,7 @@ $navbar-item-active-color: purple;
 $footer-background-color: $primary;
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
-$colors: (
-    "white": ($white, $black),
+$colors: ("white": ($white, $black),
     "black": ($black, $white),
     "light": ($light, $light-invert),
     "gold" : ($gold, $gold-invert),
