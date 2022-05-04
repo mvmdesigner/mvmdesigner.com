@@ -76,6 +76,10 @@ export default {
   color: white;
 }
 
+.icons a svg {
+    font-size: 5vmin;
+}
+
 .copyright-container {
   display: flex;
   padding: 10px;
