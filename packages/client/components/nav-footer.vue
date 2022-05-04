@@ -65,7 +65,8 @@ export default {
 
 .icons {
   flex: 1;
-  font-size: 2em;
+  display: flex;
+  flex-direction: row;
 }
 
 .icons a {
@@ -77,7 +78,8 @@ export default {
 }
 
 .icons a svg {
-    font-size: 5vmin;
+    font-size: 2vh;
+    height: 2vh;
 }
 
 .copyright-container {
