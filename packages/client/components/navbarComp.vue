@@ -44,7 +44,7 @@ export default {
         },
         {
           name: 'Contact Me',
-          link: '/contact-me',
+          link: '#contact-me',
         },
       ],
     }
