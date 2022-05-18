@@ -62,11 +62,16 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, ctx) {
+      console.log("blah blah")
+    }
+  },
 
   target: 'static',
 
   server: {
-    port: 8000 // default: 3000
+    host: '0.0.0.0',
+    port: 80 // default: 3000
   }
 }
