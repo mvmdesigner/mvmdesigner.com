@@ -72,9 +72,11 @@ export default {
 .icons a {
   margin-left:  1.5vmin;
   margin-right: 1.5vmin;
+  transition: color, scale 300ms ease-in;
 }
 .icons a:hover {
   color: white;
+  scale: 2.5;
 }
 
 .icons a svg {

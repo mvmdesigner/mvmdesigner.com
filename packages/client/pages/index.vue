@@ -1,13 +1,17 @@
 <template>
   <section class="section">
-    <div class="columns is-mobile">
-    </div>
+    <contact-form></contact-form>
   </section>
 </template>
 
 <script>
+import contactForm from '@/components/contact-me.vue'
+
 export default {
   name: 'IndexPage',
+  components: {
+    contactForm
+  },
   head: {
     title: "Hello World"
   }
