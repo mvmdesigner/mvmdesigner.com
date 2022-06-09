@@ -1,5 +1,8 @@
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
+// Import Font Awesome Styles to fix production nuxt generation bug
+// SEE https://github.com/FortAwesome/Font-Awesome/issues/18666
+@import '@fortawesome/fontawesome-svg-core/styles.css';
 
 $family-sans-serif: "Roboto",
 sans-serif;

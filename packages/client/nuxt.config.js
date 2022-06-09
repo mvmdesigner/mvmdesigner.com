@@ -72,6 +72,6 @@ export default {
 
   server: {
     host: '0.0.0.0',
-    port: 80 // default: 3000
+    port: 3030 // default: 3000
   }
 }
