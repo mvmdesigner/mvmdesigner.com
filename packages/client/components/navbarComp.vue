@@ -54,23 +54,23 @@ export default {
 
 <style lang="scss" scoped>
 @media (min-width: calc(960px + (2 * 0.75rem))) {
-.navbar-item a {
-  &:after {
-    content: '';
-    height: 1.5px;
-    width: 0;
-    background-color: #bd8f21;
-    position: absolute;
-    left: calc(50%);
-    bottom: 10%;
-    -webkit-transition: width 300ms linear;
-    transition: width 300ms linear;
-  }
+  .navbar-item a {
+    &:after {
+      content: '';
+      height: 1.5px;
+      width: 0;
+      background-color: #bd8f21;
+      position: absolute;
+      left: calc(50%);
+      bottom: 10%;
+      -webkit-transition: width 300ms linear;
+      transition: width 300ms linear;
+    }
 
-  &:hover:after {
-    width: calc(90% - 30%);
-    left: 20%;
+    &:hover:after {
+      width: calc(90% - 30%);
+      left: 20%;
+    }
   }
-}
 }
 </style>

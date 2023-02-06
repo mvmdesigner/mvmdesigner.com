@@ -70,7 +70,7 @@ export default {
 }
 
 .icons a {
-  margin-left:  1.5vmin;
+  margin-left: 1.5vmin;
   margin-right: 1.5vmin;
   transition: color, scale 300ms ease-in;
 }
@@ -80,8 +80,8 @@ export default {
 }
 
 .icons a svg {
-    font-size: 2vh;
-    height: 2vh;
+  font-size: 2vh;
+  height: 2vh;
 }
 
 .copyright-container {

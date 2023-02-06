@@ -18,8 +18,8 @@ export default {
   name: 'DefaultLayout',
   components: {
     navigationBar,
-    navigationFooter
-  }
+    navigationFooter,
+  },
 }
 </script>
 

@@ -1,11 +1,9 @@
 <template>
-    <section class="hero">
-        
-    </section>
+  <section class="hero">
+    
+  </section>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
-
 <script></script>
+
+<style lang="scss" scoped></style>

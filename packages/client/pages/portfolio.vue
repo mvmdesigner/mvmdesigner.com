@@ -1,7 +1,6 @@
 <template>
   <section class="section">
-    <div class="columns is-mobile">
-    </div>
+    <div class="columns is-mobile"></div>
   </section>
 </template>
 
@@ -9,7 +8,7 @@
 export default {
   name: 'IndexPage',
   head: {
-    title: "Hello World"
-  }
+    title: 'Hello World',
+  },
 }
 </script>

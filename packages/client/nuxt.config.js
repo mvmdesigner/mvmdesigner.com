@@ -10,13 +10,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'theme-color', content: '#053255' }
+      { name: 'theme-color', content: '#053255' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["@/assets/scss/styles.scss"],
+  css: ['@/assets/scss/styles.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -28,7 +28,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -53,25 +53,16 @@ export default {
 
   fontawesome: {
     icons: {
-      brands: [
-        'faLinkedinIn',
-        'faEtsy',
-        'faInstagram',
-      ]
-    }
+      brands: ['faLinkedinIn', 'faEtsy', 'faInstagram'],
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    extend(config, ctx) {
-      console.log("blah blah")
-    }
-  },
+  // build: {
+  //   extend(config, ctx) {
+  //     console.log('blah blah')
+  //   },
+  // },
 
   target: 'static',
-
-  server: {
-    host: '0.0.0.0',
-    port: 3030 // default: 3000
-  }
 }
