@@ -1,0 +1,12 @@
+{
+  "name": "mvmdesigner.com",
+  "version": "1.0.0",
+  "description": "MVMDESIGNER's officail static website made by WESDEVPRO",
+  "repository": "https://github.com/mvmdesigner/mvmdesigner.com.git",
+  "author": "@wesdevpro <wes@wesdevpro.com> | mvmdesigner michael@mvmdesigner.art",
+  "license": "MIT",
+  "workspaces": [
+    "src/*"
+  ],
+  "private": true
+}

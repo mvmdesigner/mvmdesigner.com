@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The backend for MVMVDESIGNER.COM",
+  "main": "server.js",
+  "repository": "https://github.com/mvmdesigner/mvmdesigner.com.git",
+  "author": "@wesdevpro <wes@wesdevpro.com> | mvmdesigner michael@mvmdesigner.art",
+  "license": "MIT",
+  "private": true
+}
