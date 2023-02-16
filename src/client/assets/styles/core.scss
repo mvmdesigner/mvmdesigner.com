@@ -11,7 +11,8 @@ $family-serif: 'Literata', serif;
   $link: #bd8f21,
   $link-invert: findColorInvert(#bd8f21),
   $link-focus-border: #bd8f21,
-  $navbar-background-color: #053255
+  $navbar-background-color: #053255,
+  $footer-background-color: #053255
 );
 
 $footer-background-color: #053255;
@@ -24,7 +25,6 @@ $navbar-item-active-color: bfindColorInvert(#bd8f21);
 $navbar-dropdown-background-color: #053255;
 // $navbar-background-color: #053255;
 $card-shadow: none;
-$footer-background-color: derived-variables.$scheme-main;
 $input-placeholder-color:
   functions.bulmaRgba(derived-variables.$text-strong, 0.6);
 
