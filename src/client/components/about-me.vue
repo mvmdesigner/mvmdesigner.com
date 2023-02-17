@@ -6,7 +6,7 @@
       </div>
       <div class="hero-text">
         <h4 class="title is-4">Michael Mercadante🎨</h4>
-        <p>This will be a paragraph about me and other things and graphical desgn</p>
+        <p>This will be a paragraph about me and graphic design</p>
       </div>
     </div>
   </section>
