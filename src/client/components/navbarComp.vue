@@ -11,14 +11,18 @@
       </b-navbar-item>
     </template>
     <template #end>
-      <b-navbar-item v-for="{ link, name } in nav" :key="name" tag="div">
+      <b-navbar-item v-for="{ link, name, localLink } in nav" :key="name" tag="div">
         <NuxtLink
+          v-if="localLink == true"
           :to="{ path: link }"
           class="is-size-4 navbar-item"
           exact-active-class="is-active"
         >
           {{ name }}
         </NuxtLink>
+        <a v-else :href="link" class="is-size-4 navbar-item" target="_blank">
+          {{ name }}
+        </a>
       </b-navbar-item>
       <hr class="navbar-divider" />
     </template>
@@ -33,19 +37,18 @@ export default {
         {
           name: 'Home',
           link: '/',
-        },
-        {
-          name: 'My Portfolio',
-          link: '/portfolio',
+          localLink: true
         },
         {
           name: 'About Me',
           link: '#about-me',
+          localLink: true
         },
         {
-          name: 'Contact Me',
-          link: '#contact-me',
-        },
+          name: 'Shop',
+          link: 'https://www.etsy.com/shop/mvmdesigner',
+          localLink: false
+        }
       ],
     }
   },
@@ -53,7 +56,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media (min-width: calc(960px + (2 * 0.75rem))) {
+.navbar-menu {
+  padding-right: 2.5rem;
+}
+
+@media (min-width: calc(1000px + (2 * 0.75rem))) {
   .navbar-item a {
     &:after {
       content: '';
