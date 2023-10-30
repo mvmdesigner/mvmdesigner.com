@@ -1,12 +1,15 @@
 {
-  "name": "mvmdesigner",
-  "version": "1.0.0",
+  "name": "root",
   "description": "mvmdesigner freelance website",
   "repository": "https://github.com/mvmdesigner/mvmdesigner.com.git",
   "author": "Wesley Ford @wesdevpro <wes@wesdev.pro>",
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
-  ]
+    "src/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.4.1"
+  }
 }
