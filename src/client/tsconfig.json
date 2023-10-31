@@ -13,7 +13,8 @@
       "@components/*": ["./src/components/*"],
       "@assets/*": ["./src/assets/*"],
       "@layouts/*": ["./src/layouts/*"],
-      "@scripts/*": ["src/ts/*"]
+      "@scripts/*": ["src/ts/*"],
+      "@data/*": ["src/data/*"]
     },
     "allowJs": true,
     "jsx": "preserve"

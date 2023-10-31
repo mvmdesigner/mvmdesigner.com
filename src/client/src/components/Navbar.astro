@@ -1,0 +1,24 @@
+---
+import NavBrand from '@components/NavBrand.astro'
+import Navlink from './Navlinks.astro';
+import navData from '@data/routeData.ts'
+---
+
+<nav>
+    <div>
+        <NavBrand/>
+    </div>
+    <div>
+        <ul>
+            {navData.map((item:any) => {
+                <li>
+                    <Navlink
+                        text={item.name}
+                        href={item.path}
+                        icon={item.icon}
+                    />
+                </li>
+            })}
+        </ul>
+    </div>
+</nav>
